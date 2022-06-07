@@ -9,6 +9,8 @@
 ### Next
 ### Redux
 ### GraphQL
+* [Apollo Client]
+* [nestjs-graphql-playground]
 ### Nest
 ### Docker
 ### Go
