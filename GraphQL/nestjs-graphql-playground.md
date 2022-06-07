@@ -3,7 +3,7 @@
 
 ## 특징
 - Active Record, Data Mapper 중 Active Record로 작성되었음 (TypeORM)
-  - Data Mapper는 어려움
+  - Data Mapper는 어려움. 단위 테스트할 때는 유리하나, 어차피 나중가면 전부 E2E 테스트만 할 것인데, 이경우는 Data Mapper나 Active Record나 똑같다.
 - Code First, Schema First 중 Code First로 작성되었음 (GraphQL)
   - 만약 express를 사용하는 경우에는 Code First로만 작성해야 함
   - GraphQL을 Code First 방식으로 작성할 때, `@ObjectType()` 등의 데코레이터 함수가 사용된다
